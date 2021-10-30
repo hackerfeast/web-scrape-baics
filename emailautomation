@@ -1,0 +1,5 @@
+import smtplib
+server = smtplib.SMTP('smtp.gmail.com',587)
+server.starttls() #verifying 
+server.login('nithish3604@gmail.com','hackerfeast12')
+server.sendmail('nithish3604@gmail.com', 'nithish0036@gmail.com', " hi this automated msg dont reply")
